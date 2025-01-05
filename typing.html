@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Tester</title>
+  <link rel="stylesheet" href="typing.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Speed Tester</h1>
+    <p class="instructions">Type the text below as fast as you can. Your errors and time will be calculated.</p>
+    <div class="text-box">
+      <p id="sample-text"></p>
+    </div>
+    <textarea id="user-input" placeholder="Start typing here..." disabled></textarea>
+    <div class="stats">
+      <p>Time Left: <span id="time-left">30</span> seconds</p>
+      <p>Errors: <span id="error-count">0</span></p>
+      <p>Words Per Minute (WPM): <span id="wpm">0</span></p>
+    </div>
+    <button id="start-button">Start Test</button>
+  </div>
+  <script src="typing.js"></script>
+</body>
+</html>
